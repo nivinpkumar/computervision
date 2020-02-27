@@ -1,0 +1,12 @@
+clc;
+clear;
+matches1 = match('scene.pgm','detail1.png');
+matches2 = match('detail1.png','scene.pgm');
+matches3 = match('scene.pgm','detail2.png');
+matches4 = match('detail2.png','scene.pgm');
+matches5 = match('scene.pgm','detail3.png');
+matches6 = match('detail3.png','scene.pgm');
+matches7 = match('scene.pgm','detail4.png');
+matches8 = match('detail4.png','scene.pgm');
+matches9 = match('scene.pgm','detail5.png');
+matches10 = match('detail5.png','scene.pgm');
